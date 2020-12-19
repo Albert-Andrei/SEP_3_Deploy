@@ -1,0 +1,13 @@
+.about1 {
+    color: #0d0c22;
+    background: #f2d184;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.content1{
+    background: #fff;
+    padding: 20px;
+    margin: 20px 10px 20px 420px;
+}

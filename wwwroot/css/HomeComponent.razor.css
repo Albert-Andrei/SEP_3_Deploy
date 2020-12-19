@@ -1,0 +1,98 @@
+
+.headerFirst{
+    margin-top: 100px;
+    text-align: center;
+    font-family: sans; color: white;
+    font-size: 50px;
+    z-index: 2;
+}
+.headerSecond{
+    text-align: center;
+    font-family: sans; color: white;
+    font-size: 50px;
+    z-index: 2;
+}
+.headerThird{
+    text-align: center;
+    font-family: sans; color: white;
+    font-size: 25px;
+    z-index: 2;
+}
+.buttonSign{
+    margin-top: 50px;
+    font-size: 25px;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 0;
+    border: #5dd631;
+    background: #5dd631;
+    font-family: sans; color: white;
+    padding: 1px 50px;
+}
+.background {
+    background: #1f7ac4;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+body {
+    background-color: #1f7ac4;
+
+}
+.buttonSign:hover {
+    transform: scale(1.35);
+    opacity: 1;
+    text-decoration: none;
+    filter: blur(0);
+    color: #edf0f1;
+}
+.buttonSign .icon {
+    display: none;
+}
+
+.navbars {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.7;
+    z-index: 2;
+}
+
+.navbars a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.navbars a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+
+.navbars a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.photo1 {
+    margin-top: 60px;
+    position:fixed;
+}
+
+.main {
+    height: 100%;
+    background: #1f7ac4;
+}
+
